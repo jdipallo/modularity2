@@ -1,0 +1,20 @@
+/* ADD YOUR STYLES HERE */
+
+.container1 {
+    text-align: center;
+}
+
+.container1 img {
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+.container1 p, ol {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.container2 {
+    padding: 100px 0px;
+}
+
