@@ -55,3 +55,35 @@
     line-height: 30px;
     font-size: 14px;
 }
+
+/* For Navigation Bar... */
+.navBar {
+    height: 50px;
+    background-color: #E6848A;
+    font-size: 18px;
+    font-family: 'Arial';
+    border-radius: 5px;
+    text-align: center;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li {
+    float: left;
+    line-height: 50px; /* same as height of .navBar to vertical center */
+    width: 20%;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBar li:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
