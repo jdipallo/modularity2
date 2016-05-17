@@ -118,11 +118,11 @@
 /* for comments stream exercise */
 .commentsImage {
     float: left;
-    clear: left;
 }
 
 .commentsContent {
     overflow: hidden;
+    float: left;
 }
 .commentsContent time {
     color: lightgrey;
