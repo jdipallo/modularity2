@@ -18,3 +18,40 @@
     padding: 100px 0px;
 }
 
+.horizontalList {
+    list-style: none;
+}
+
+.horizontalList li {
+    float: left;
+}
+
+.myButton {
+    display: inline-block;
+    line-height: 40px;
+    background-color: #E6848A;  
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial';
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#bigButton {
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+#smallButton {
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
