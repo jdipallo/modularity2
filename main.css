@@ -25,7 +25,8 @@
 .horizontalList li {
     float: left;
 }
-
+/* for the buttons, one big one small all others the same */
+/* all buttons have same properties */
 .myButton {
     display: inline-block;
     line-height: 40px;
@@ -41,7 +42,7 @@
     vertical-align: middle;
     border-style: none;
 }
-
+/* but big and small buttons have specific properities just for them */
 #bigButton {
     width: 200px;
     height: 60px;
@@ -86,4 +87,44 @@
 .navBar li:hover {
     background-color: grey;
     border-radius: 5px;
+}
+
+/* for the pagination section */
+.paginationBar {
+    height: 25px;
+}
+
+.paginationBar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.paginationBar a {
+    text-decoration: none;
+    color: #E6848A;
+    text-align: center;
+    border-bottom: 2px solid #E6848A;
+    padding: 5px;
+}
+
+.paginationBar span {
+    color: grey;
+}
+
+.firstItem a, .lastItem a {
+    border-bottom: none;
+}
+
+/* for comments stream exercise */
+.commentsImage {
+    float: left;
+    clear: left;
+}
+
+.commentsContent {
+    overflow: hidden;
+}
+.commentsContent time {
+    color: lightgrey;
+    font-size: 12px;
 }
