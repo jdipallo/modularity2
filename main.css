@@ -135,3 +135,43 @@
     color: lightgrey;
     font-size: 12px;
 }
+
+/* For exercise 13, the tab group */
+.tabGroup {
+    height: 2em;
+    padding-left: 16px;
+    margin: 0;
+}
+
+.tabGroup li {
+    list-style: none;
+    float: left;
+    margin: 0 10px 0 0;
+    width: 10%;
+}
+
+.tabGroup li div {
+    text-align: center;
+    line-height: 2em;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #D7D0C4;
+}
+
+#activeTab {
+     border-bottom: none;
+}
+
+.tabGroup li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    display: block;
+}
+
+.tabContent {
+    clear:left;
+    width: 100%;
+    border: 1px solid #D7D0C4;
+    border-radius: 5px;
+    padding: 1em;
+}
