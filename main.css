@@ -25,6 +25,7 @@
 .horizontalList li {
     float: left;
 }
+
 /* for the buttons, one big one small all others the same */
 /* all buttons have same properties */
 .myButton {
@@ -116,14 +117,20 @@
 }
 
 /* for comments stream exercise */
+.comments {
+    clear: left;
+}
+
 .commentsImage {
+    padding: 5px;
     float: left;
 }
 
 .commentsContent {
+    margin-left: 97px;
     overflow: hidden;
-    float: left;
 }
+
 .commentsContent time {
     color: lightgrey;
     font-size: 12px;
